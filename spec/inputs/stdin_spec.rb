@@ -7,7 +7,7 @@ describe LogStash::Inputs::Stdin do
   context ".reloadable?" do
     subject { described_class }
 
-    it "returns true" do
+    it "returns false" do
       expect(subject.reloadable?).to be_falsey
     end
   end
